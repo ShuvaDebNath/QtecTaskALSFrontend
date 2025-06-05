@@ -29,9 +29,9 @@ function AccountList() {
         <tbody>
           {accounts.map(account => (
             <tr key={account.id}>
-              <td className="border px-2 py-1">{account.id}</td>
-              <td className="border px-2 py-1">{account.name}</td>
-              <td className="border px-2 py-1">{account.type}</td>
+              <td className="border px-2 py-1 text-center">{account.id}</td>
+              <td className="border px-2 py-1 text-center">{account.name}</td>
+              <td className="border px-2 py-1 text-center">{account.type}</td>
             </tr>
           ))}
         </tbody>
