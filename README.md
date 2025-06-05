@@ -1,25 +1,39 @@
 Accounting Ledger System – Frontend (React.js + Vite)
 This is the frontend application for the full-stack Accounting System, built using React.js, Vite, Tailwind CSS, and Axios. It allows users to manage accounts, create journal entries, and view trial balances via a modern, responsive UI.
 
-Tech Stack
+🛠️ Tech Stack
 React.js (with Vite)
+
 React Router DOM
+
 Axios
+
 Tailwind CSS
-API Integration with ASP.NET Core Web API
+
+Integrated with ASP.NET Core Web API
 
 Project Structure
+
 /src
+
  ├── pages/
+ 
  │    ├── AccountsPage.jsx
+ 
  │    ├── AddAccountPage.jsx
+ 
  │    ├── JournalEntriesPage.jsx
+ 
  │    ├── AddJournalEntryPage.jsx
- │    └── TrialBalancePage.jsx
+ 
  ├── components/
+ 
  │    ├── Menu.jsx
+ 
  ├── App.jsx
+ 
  ├── main.jsx
+ 
  └── index.css
 
  🚀 Getting Started
@@ -34,12 +48,19 @@ Project Structure
    npm run dev
 
 🧾 Features
+
 ├──View all Accounts
+
 ├──Create new Account
+
 ├──Create Journal Entries (with auto debit-credit logic)
+
 ├──View Journal Entries
+
 ├──Responsive UI using Tailwind
+
 ├──Client-side validation
+
 ├──API Error handling & loading indicators
 
 📸 Screenshots
