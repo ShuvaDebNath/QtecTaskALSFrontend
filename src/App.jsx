@@ -1,18 +1,18 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Menu from './components/Menu';
+import AccountList from './pages/accounts/AccountList';
+import AccountCreate from './pages/accounts/AccountCreate';
 
 function App() {
   return (
-    <Routes>
-      <Route
-        path="/"
-        element={
-          <div className="text-center mt-10">
-            <h1 className="text-3xl font-bold text-blue-600">Qtec Accounting Frontend</h1>
-            <p className="mt-2 text-gray-600">Vite + React + Tailwind working perfectly ✅</p>
-          </div>
-        }
-      />
-    </Routes>
+    <>
+      <Menu />
+      <Routes>
+        <Route path="/" element={<Navigate to="/accounts" />} />
+        <Route path="/accounts" element={<AccountList />} />
+        <Route path="/accounts/create" element={<AccountCreate />} />
+      </Routes>
+    </>
   );
 }
 
