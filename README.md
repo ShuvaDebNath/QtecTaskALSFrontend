@@ -1,12 +1,53 @@
-# React + Vite
+Accounting Ledger System – Frontend (React.js + Vite)
+This is the frontend application for the full-stack Accounting System, built using React.js, Vite, Tailwind CSS, and Axios. It allows users to manage accounts, create journal entries, and view trial balances via a modern, responsive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack
+React.js (with Vite)
+React Router DOM
+Axios
+Tailwind CSS
+API Integration with ASP.NET Core Web API
 
-Currently, two official plugins are available:
+Project Structure
+/src
+ ├── pages/
+ │    ├── AccountsPage.jsx
+ │    ├── AddAccountPage.jsx
+ │    ├── JournalEntriesPage.jsx
+ │    ├── AddJournalEntryPage.jsx
+ │    └── TrialBalancePage.jsx
+ ├── components/
+ │    ├── Menu.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 🚀 Getting Started
+ 1. Clone the Repository
+    git clone https://github.com/your-username/QtecTaskALSFrontend.git
+    cd accounting-system-frontend
+2. Install Dependencies
+   npm install
+3. Environment Configuration
+   Create a .env file at the root of the project: VITE_API_BASE_URL=http://localhost:5164/api
+4. Run the Application
+   npm run dev
 
-## Expanding the ESLint configuration
+🧾 Features
+├──View all Accounts
+├──Create new Account
+├──Create Journal Entries (with auto debit-credit logic)
+├──View Journal Entries
+├──Responsive UI using Tailwind
+├──Client-side validation
+├──API Error handling & loading indicators
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📸 Screenshots
+![image](https://github.com/user-attachments/assets/c1ee30e5-927f-4414-ab6a-37aea1afe2bd)
+![image](https://github.com/user-attachments/assets/da7db54c-ad69-4348-8780-73ca1882acec)
+![image](https://github.com/user-attachments/assets/ed23f7a7-dbe0-4ffd-aa20-512fa590f099)
+![image](https://github.com/user-attachments/assets/be5ff0f5-ec12-48bc-ae40-864b233a2535)
+
+
+
+
